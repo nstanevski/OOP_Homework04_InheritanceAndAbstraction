@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_HumanStudentWorker", "01_HumanStudentWorker\01_HumanStudentWorker.csproj", "{16BE7870-C0AA-4688-8284-13E81DE508CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_Animals", "02_Animals\02_Animals.csproj", "{B5321FF8-C70A-46DD-86C8-D5EF76FB731C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{16BE7870-C0AA-4688-8284-13E81DE508CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16BE7870-C0AA-4688-8284-13E81DE508CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16BE7870-C0AA-4688-8284-13E81DE508CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16BE7870-C0AA-4688-8284-13E81DE508CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5321FF8-C70A-46DD-86C8-D5EF76FB731C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5321FF8-C70A-46DD-86C8-D5EF76FB731C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5321FF8-C70A-46DD-86C8-D5EF76FB731C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5321FF8-C70A-46DD-86C8-D5EF76FB731C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
