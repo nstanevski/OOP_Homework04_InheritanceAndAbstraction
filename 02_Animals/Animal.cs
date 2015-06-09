@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace _02_Animals
 {
@@ -47,6 +44,7 @@ namespace _02_Animals
             {
                 if (value < 0 || value > 30)
                     throw new ArgumentOutOfRangeException("Age is a number in range [1..30]");
+                this.age = value;
 
             }
         }
@@ -64,6 +62,11 @@ namespace _02_Animals
                         "Gender can be either 0 or 1 (female/male)");
                 this.gender = value;
             }
+        }
+
+        public override string ToString()
+        {
+            return string.Format("{0} {1} {2}", Name, Age, Gender);
         }
 
 
