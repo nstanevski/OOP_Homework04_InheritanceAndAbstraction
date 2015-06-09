@@ -11,6 +11,5 @@ namespace _02_Animals
         }
 
         public override abstract void ProduceSound();
-
     }
 }
