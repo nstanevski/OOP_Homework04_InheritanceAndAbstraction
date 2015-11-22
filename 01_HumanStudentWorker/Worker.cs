@@ -48,7 +48,7 @@ namespace _01_HumanStudentWorker
 
         public double MoneyPerHour()
         {
-            return (double)WeekSalary / (double)WorkHoursPerDay;
+            return (double)(WeekSalary/5.0) / (double)WorkHoursPerDay;
         }
     }
 }
